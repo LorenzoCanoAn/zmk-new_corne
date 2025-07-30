@@ -79,9 +79,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION   &kp ES_INVERTED_QUESTION  &kp ES_QUESTION           &none                                &mmv MOVE_UP                     &kp ES_PIPE  &kp ES_BACKSLASH  &none             &none  &none  &kp BSPC
-&trans  &kp ES_LEFT_BRACE            &kp ES_RIGHT_BRACE   &kp ES_LEFT_BRACKET       &kp ES_RIGHT_BRACKET      &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp ES_AT    &kp ES_POUND      &kp ES_AMPERSAND  &none  &none  &none
-&trans  &kp ES_LESS_THAN             &kp ES_GREATER_THAN  &kp ES_LEFT_PARENTHESIS   &kp ES_RIGHT_PARENTHESIS  &none      &trans                    &mmv MOVE_DOWN                   &none        &none             &none             &none  &none  &none
+&trans  &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION   &kp ES_INVERTED_QUESTION  &kp ES_QUESTION           &none                                &mmv MOVE_UP                     &kp ES_PIPE  &kp ES_BACKSLASH  &none             &none          &none  &kp BSPC
+&trans  &kp ES_LEFT_BRACE            &kp ES_RIGHT_BRACE   &kp ES_LEFT_BRACKET       &kp ES_RIGHT_BRACKET      &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp ES_AT    &kp ES_POUND      &kp ES_AMPERSAND  &kp ES_DOLLAR  &none  &none
+&trans  &kp ES_LESS_THAN             &kp ES_GREATER_THAN  &kp ES_LEFT_PARENTHESIS   &kp ES_RIGHT_PARENTHESIS  &none      &trans                    &mmv MOVE_DOWN                   &none        &none             &none             &none          &none  &none
                                                           &trans                    &trans                    &kp SPACE                                                             &kp RET      &trans            &trans
             >;
 
