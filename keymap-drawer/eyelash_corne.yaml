@@ -41,7 +41,7 @@ layers:
   - M
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - {t: ., s: '>'}
-  - {t: '-', s: _}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-shift$$
   - NUMBER
