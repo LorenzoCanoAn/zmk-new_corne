@@ -108,8 +108,8 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE)))
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT)))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
